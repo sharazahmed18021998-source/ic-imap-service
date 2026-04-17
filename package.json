@@ -2,10 +2,12 @@
   "name": "ic-imap-service",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": { "start": "node index.js" },
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "express": "^4.18.2",
-    "imapflow": "^1.0.162"
+    "imapflow": "^1.0.162",
     "nodemailer": "^6.9.9"
   }
 }
